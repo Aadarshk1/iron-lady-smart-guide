@@ -67,3 +67,34 @@ The Smart Career Guide acts as an intelligent assistant that:
 
 ## 🎥 Demo Video
 👉 https://drive.google.com/file/d/1NufDw4LOLxMcY-A-kCACX0Vd832OTtzP/view?usp=drive_link
+
+---
+
+## 🚀 How To Run The Project
+1. Download or clone the repository  
+2. Open Task 1 folder  
+3. Open `index.html` in browser  
+
+---
+
+## 🔮 Future Improvements
+- Integration with real AI APIs  
+- Database integration for lead storage  
+- Multi-language support  
+- WhatsApp or website chatbot integration  
+
+---
+
+## 👨‍💻 Author
+**Aadarsh Kumar**
+
+---
+
+## ⭐ Project Highlights
+✔ AI-driven conversational logic  
+✔ Business-focused solution design  
+✔ Customer journey optimization  
+✔ Lightweight and scalable architecture  
+
+---
+
