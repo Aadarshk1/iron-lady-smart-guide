@@ -72,7 +72,7 @@ The Smart Career Guide acts as an intelligent assistant that:
 
 ## 🚀 How To Run The Project
 1. Download or clone the repository  
-2. Open Task 1 folder  
+2. Open Task folder 
 3. Open `index.html` in browser  
 
 ---
