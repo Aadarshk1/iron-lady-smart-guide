@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Iron Lady Smart Career Guide</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="app">
+    <header class="app-header header-card">
+      <div class="header-inner">
+        <div class="brand">
+          <img src="logo.png" alt="" class="logo" onerror="this.style.display='none'" />
+          <div class="brand-text">
+            <h1>Iron Lady Smart Career Guide</h1>
+            <p class="tagline">Your personalized assistant for career & leadership growth</p>
+          </div>
+        </div>
+        <div class="header-meta">
+          <div class="meta-top">
+            <span class="badge">Personalized</span>
+            <button id="themeToggle" class="theme-toggle" aria-label="Toggle dark mode" title="Toggle light/dark mode">
+              <span class="icon" aria-hidden="true">🌙</span>
+            </button>
+          </div>
+          <small class="sub">Built for career & leadership growth</small>
+        </div>
+      </div>
+    </header>
+
+    <div class="chat-panel">
+      <div id="chatBox" class="chatBox" role="log" aria-live="polite"></div>
+
+      <div class="suggestions-row">
+        <div class="suggestions" id="suggestions">
+          <button class="chip">Leadership tips</button>
+          <button class="chip">Career growth</button>
+          <button class="chip">Boost my confidence</button>
+        </div>
+        <button id="clearBtn" class="clear-btn" aria-label="Clear conversation">Clear history</button>
+      </div>
+
+      <form id="chatForm" class="chat-form" onsubmit="sendMessage(event)">
+        <textarea id="userInput" placeholder="Tell me about your career goal..." rows="1" aria-label="Message input"></textarea>
+        <button type="submit" class="send-btn" aria-label="Send message">Send</button>
+      </form>
+      <p class="hint"><svg class="hint-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><rect x="2" y="5" width="20" height="14" rx="2" stroke="currentColor" stroke-width="1.5" fill="none"/><rect x="7" y="8" width="2" height="2" fill="currentColor"/><rect x="11" y="8" width="2" height="2" fill="currentColor"/><rect x="15" y="8" width="2" height="2" fill="currentColor"/><rect x="7" y="12" width="2" height="2" fill="currentColor"/><rect x="11" y="12" width="4" height="2" fill="currentColor"/></svg> <span class="hint-text">Press <kbd>Enter</kbd> to send — <kbd>Shift+Enter</kbd> for newline</span></p>
+      <div id="toastArea" class="toast-area" aria-live="polite" aria-atomic="true"></div>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
